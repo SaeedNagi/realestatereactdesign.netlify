@@ -1,0 +1,84 @@
+.footer-head{
+    width: 99%;
+    height: 80vh;
+    background-color:rgb(31 41 55);
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    /* position: absolute; */
+}
+.footer1{
+    margin-top: 35px;
+    width: 25vw;
+    height: 70vh;
+    color: white;
+    /* background-color: aqua; */
+}
+.facebook{
+    width: 28vw;
+    height: 10vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.facebook1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30%;
+    margin: 10px;
+    cursor:pointer;
+}
+.facebook1:hover{
+    background-color: red;
+    zoom: 1.1;
+}
+.facebook1 img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.footer1 h1{
+    margin: 10px;
+    color: white;
+}
+.footer1 p{
+    margin: 20px;
+    color: white;
+    word-spacing: 10px;
+    font: 1.1em sans-serif;
+}
+.feet{
+    display: flex;
+}
+.feet img{
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+.footer1 h2{
+    margin: 10px;
+    padding: 10px;
+}
+.item1{
+    width: 405px;
+    height: 150px;
+    /* background-color: brown; */
+    display: flex;
+    font: .9em sans-serif;
+    /* zoom: 1.1; */
+}
+.item1 img{
+    width: 160px;
+    height: auto;
+    border-radius: 18px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.move img:hover{
+    zoom: 1.1;
+}

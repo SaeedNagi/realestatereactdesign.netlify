@@ -1,0 +1,70 @@
+.Services{
+    width: 96%;
+    height: 170vh;
+    background-color: rgb(254 226 226);
+    margin-top: 10vh;
+    margin-left: 1vw;
+}
+.Service{
+    width: 40vw;
+    height: 20vh;
+    /* background-color: blueviolet; */
+    margin-left: 5vw;
+    line-height: 2.5rem;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Service p{
+    color: red;
+    font: 1em sans-serif;
+}
+.Service h1{
+    font: 2.4em sans-serif;
+}
+.girds{
+    width: 95%;
+    height: 150vh;
+    /* background-color: aqua; */
+    margin-left: 2vw;
+    margin-top: 5vh;
+    /* position: absolute; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.clg-1{
+    width: 28vw;
+    height: 60vh;
+    background-color: rgb(248, 248, 248);
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    /* position: relative; */
+    text-align: start;
+    border-radius: 10px;
+    border-bottom: 8px solid red;
+    cursor:pointer;
+}
+.clg-1:hover{
+    background-color: rgb(230, 157, 157);
+}
+.clg-2{
+    width: 125px;
+    height: 120px;
+    background-color: rgb(255, 196, 196);
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+.clg-2 img{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.clg-1 h2, p, a{
+    margin-left: 10px;
+}
+.clg-1 p{
+    font: 1.3em sans-serif;
+    color: rgb(100, 96, 96);
+}
+.clg-1 a{
+    font-weight: 600;
+    color: red;
+}
