@@ -22,7 +22,7 @@ export default function Navbar({ refs }) {
                 TESTIMONIALS
               </li>
               <li onClick={() => handleScroll(refs.contact)}>CONTACT</li>
-            </div>
+            </div>          
             <div className="contact-bar">
               <img src={icons8phone} alt="" />
               <p>888-908-9102</p>
