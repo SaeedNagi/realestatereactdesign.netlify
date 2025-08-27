@@ -2,11 +2,10 @@
     width: 100%;
     height: 120vh;
     margin-top: 10vh;
-    /* margin-left: 5vw; */
     display: flex;
     background-color: #e0e0e0;
-    /* position: absolute; */
 }
+
 .about-cent img{
     width: 40vw;
     height: auto;
@@ -51,14 +50,12 @@
     color: white;
 }
 
-
 .abtus{
     width: 95%;
     height: 120vh;
     background-color: rgb(255, 223, 239);
     margin-left: 2.5vw;
     border-radius: 15px;
-    /* position: absolute; */
     margin-top: 5vh;
 }
 .section{
@@ -100,6 +97,9 @@
     margin-left: 15vw;
     transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
+.pop11{
+    display: flex;
+}
 .pop1 h1{
     font: 4rem sans-serif;
     font-weight: 600;
@@ -107,4 +107,74 @@
 .pop1 p{
     margin-top: 10px;
     font: 1.4em sans-serif;
+}
+@media screen and (max-width: 700px) {
+    .abtus{
+        height: 210vh;
+    }
+    .about-cent{
+        margin-top: 40vh;
+        display: block;
+        height: 130vh;
+        width: 88vw;
+    }
+    .about-cent img{
+        margin: 30px 20px;
+         width: 80vw;
+    }
+    .para{
+        margin-top: -4vh;
+        padding: 10px;
+    }
+    .para h1{
+        width: 80vw;
+        font-size: 2.2rem;
+    }
+    .para p{
+        width: 80vw;
+        font-size: large;
+    }
+    .para button{
+        padding: 20px;
+        width: 35vw;
+        background-color: red;
+        border-radius: 10px;
+        border-style: none;
+    }
+}
+@media screen and (max-width: 700px){
+    .abtus{
+        margin-top: -11vh;
+        margin-left: 0;
+        width: 88vw;
+    }
+    .section{
+        display: block;
+    }
+    .pop h1{
+        font-size: 2rem;
+        width: 50vw;
+        font-weight: 700;
+    }
+    .area001{
+        display: block;
+        margin: 20px 0px;
+        width: 20vw;
+    }
+    .area001 img{
+        width: 80vw;
+        height: 50vh;
+    }
+     .pop1{
+        height: 40vh;
+        margin-top: 160vh;
+        display: block;
+     }
+    .pop11 h1{
+        font-weight: 500;
+        width: 20vw; 
+    }
+    .pop11 p{
+        font-size: large;
+    }
 }

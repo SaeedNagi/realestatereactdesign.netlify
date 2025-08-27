@@ -166,6 +166,7 @@
 .icons23 p{
     padding: 15px;
     font-size: 15px;
+    margin: 5px;
 }
 .icons23 img:last-child{
     width: 22px;
@@ -222,4 +223,37 @@
 .btn23 button:hover{
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width: 700px){
+    .Properties{
+        height: 520vh;
+    }
+    .proper p{
+        font-size: medium;
+    }
+    .proper h1{
+         font-weight: 600;
+    }
+    .grid{
+        display: block;
+    }
+    .grid-style{
+        width: 83vw;
+        height: 80vh;
+    }
+    .style, .style1, .style2, .style3, .style4, .style5, .center-1, .varun, .pore, .proper{
+        width: 80vw;
+    }
+    .Sales{
+        margin-right: 15px;
+    }
+    .btn23 button{
+        padding: 20px;
+    width: 45vw;
+    background-color: red;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 90px;
+    }
 }

@@ -62,18 +62,46 @@
     line-height: 30px;
 }
 
-@media (max-width: 768px) {
-    .good-1 {
-        flex-direction: column;
-        gap: 16px;
-        align-items: center;
+@media screen and (max-width: 700px) {
+    .Testi{
+        width: 76%;
+        height: 280vh;
+    }
+    .Testi-11{
+        width: 80vw;
+        padding: 0;
+        margin: -10px;
+    }
+    .Testi-11 p{
+        padding: 0;
+        margin: 20px 0px;
     }
     .grade {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
+        width: 121%;
+        margin: -45px;
+        display: block;
     }
-    /* .child {
-        padding: 20px;
-    } */
+    .good{
+        width: 83vw;
+        height: 40vh;
+    }
+    .good img{
+        width: 90px;
+        height: 80px;
+        margin: 20px 10px;
+    }
+    .good-1 {
+        align-items: center;
+    }
+    .child{
+        padding: 5px;
+        margin: 5px 25px;
+    }
+    .child h3{
+        margin-left: 20px;
+    }
+    .good p{
+        font-size: medium;
+        margin: 20px;
+    }
 }

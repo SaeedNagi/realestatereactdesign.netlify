@@ -7,6 +7,7 @@ import area_3 from "../Images/area_3.jpg";
 export default function About() {
   return (
     <>
+    <div className="hello">
       <div className="about-cent">
         <img src={about_pic} alt="" />
         <div className="para">
@@ -26,7 +27,7 @@ export default function About() {
           <div className="pop">
             <p>POPULAR AREAS</p>
             <h1>
-              Explore most <br />
+              Explore most
               popular areas
             </h1>
           </div>
@@ -37,26 +38,33 @@ export default function About() {
           </div>
         </div>
         <div className="pop1">
+        <div className="pop11">
           <h1>5K</h1>
           <p>
             ACTIVE
             <br />
             LISTINGS
           </p>
+        </div>
+        <div className="pop11">
           <h1>9K</h1>
           <p>
             SOLID
             <br />
             LISTINGS
           </p>
+          </div>
+          <div className="pop11">
           <h1>6K</h1>
           <p>
             CLIENTS
             <br />
             WE'VE SERVED
           </p>
+          </div>
         </div>
       </div>
+    </div>
     </>
   );
 }

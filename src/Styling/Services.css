@@ -68,3 +68,34 @@
     font-weight: 600;
     color: red;
 }
+
+@media screen and (max-width: 700px){
+    .Services{
+        height: 295vh;
+    }
+    .Service{
+        width: 70vw;
+    }
+    .Service p{
+        padding: 10px;
+    }
+    .girds{
+        display: block;
+    }
+    .clg-1{
+        width: 80vw;
+        height: 40vh;
+    }
+    .clg-2{
+        width: 100px;
+        height: 100px;
+        margin: 5vh;
+    }
+    .clg-2 img{
+        margin: 25px 25px;
+    }
+    .clg-1 h2, p, a{
+        margin-left: 5px;
+        margin-top: 0px;
+    }
+}

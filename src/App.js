@@ -7,36 +7,35 @@ import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import { Home } from 'lucide-react';
 function App() {
-  const aboutRef = useRef(null);
-  const propertiesRef = useRef(null);
-  const servicesRef = useRef(null);
-  const testimonialsRef = useRef(null);
-  const contactRef = useRef(null);
+  const refs = {
+    home: useRef(null),
+    about: useRef(null),
+    properties: useRef(null),
+    services: useRef(null),
+    testimonials: useRef(null),
+    contact: useRef(null),
+  };
   return (
     <>
-    <Navbar
-        refs={{         
-          about: aboutRef,
-          properties: propertiesRef,
-          services: servicesRef,
-          testimonials: testimonialsRef,
-          contact: contactRef,
-        }}
-      />
-      <div ref={aboutRef}>
+      <Navbar refs={refs} />
+      <div ref={refs.home}>
+        <Home />
+      </div>
+      <div ref={refs.about}>
         <About />
       </div>
-      <div ref={propertiesRef}>
+      <div ref={refs.properties}>
         <Properties />
       </div>
-      <div ref={servicesRef}>
+      <div ref={refs.services}>
         <Services />
       </div>
-      <div ref={testimonialsRef}>
+      <div ref={refs.testimonials}>
         <Testimonials />
       </div>
-      <div ref={contactRef}>
+      <div ref={refs.contact}>
         <Contact />
       </div>
       <Footer />

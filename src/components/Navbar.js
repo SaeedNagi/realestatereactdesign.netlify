@@ -3,9 +3,12 @@ import "../Styling/Navbar.css";
 import logo_reals from "../Images/logo_reals.png";
 import icons8phone from "../Images/icons8phone.png";
 import icons8maleuser from "../Images/icons8maleuser.png";
+import icons8_menu from "../Images/icons8_menu.png"
 export default function Navbar({ refs }) {
   const handleScroll = (ref) => {
-    ref.current.scrollIntoView({ behavior: "smooth" });
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
   return (
     <>
@@ -14,13 +17,11 @@ export default function Navbar({ refs }) {
           <div className="logo">
             <div className="navbar-first">
               <img src={logo_reals} alt="" />
-              <li>HOME</li>
+              <li onClick={() => handleScroll(refs.home)}>HOME</li>
               <li onClick={() => handleScroll(refs.about)}>ABOUT</li>
               <li onClick={() => handleScroll(refs.properties)}>PROPERTIES</li>
               <li onClick={() => handleScroll(refs.services)}>SERVICES</li>
-              <li onClick={() => handleScroll(refs.testimonials)}>
-                TESTIMONIALS
-              </li>
+              <li onClick={() => handleScroll(refs.testimonials)}>TESTIMONIALS</li>
               <li onClick={() => handleScroll(refs.contact)}>CONTACT</li>
             </div>          
             <div className="contact-bar">
@@ -29,6 +30,7 @@ export default function Navbar({ refs }) {
               <img src={icons8maleuser} alt="" />
             </div>
           </div>
+          <div className="menu-icon"><img src={icons8_menu} alt="" /></div>
         </div>
 
         <div className="home-side">
